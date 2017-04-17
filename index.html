@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    
+    <!-- jQuery before becuase js depends on it -->
 </head>
 <body>
     <div class="container">
@@ -18,7 +20,7 @@
                     <textarea cols="60" rows="20" id="user-text" name="user-text" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." required></textarea>
                 </div>
                 <div>
-                    <button type="submit">Analyze it!</button>
+                    <button class="js-button">Analyze it!</button>
                 </div>
             </form>
 
@@ -35,7 +37,7 @@
         </main>
     </div>
 
-    <!-- link to jquery -->
-    <!-- link to your app.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
