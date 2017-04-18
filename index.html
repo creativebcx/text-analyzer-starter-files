@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     
-    <!-- jQuery before becuase js depends on it -->
+    <!-- jQuery before js becuase js depends on it -->
 </head>
 <body>
     <div class="container">
@@ -24,15 +24,20 @@
                 </div>
             </form>
 
+            <!--<div class="js-values">
+                <div class="js-total"></div>
+                <div class="js-unique"></div>
+                -->
+
             <dl class="hidden text-report">
                 <dt>Word count</dt>
-                <dd></dd>
+                <dd class="js-total"></dd>
 
                 <dt>Unique word count</dt>
-                <dd></dd>
+                <dd class="js-unique"></dd>
 
                 <dt>Average word length</dt>
-                <dd></dd>
+                <dd class="js-avg"></dd>
             </dl>
         </main>
     </div>
